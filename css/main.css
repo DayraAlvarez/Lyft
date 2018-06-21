@@ -2,6 +2,18 @@ body#page,html,.container, {
    height: 100vh;
 }
 
+#page {
+   height: 100vh;
+   position: absolute;
+   text-align: center;
+}
+
+#mainPage {
+   height: 100vh;
+   background-image: url("../assets/images/taxi.jpg");
+   background-size: cover;
+}
+
 .intro {
     background: linear-gradient(to bottom right, #530060 0%, #db0a87 100%);
     text-align: center;
@@ -14,8 +26,8 @@ body#page,html,.container, {
     width: 30%;
 }
 
+
 .setUp  {
-    background-image: url("../assets/images/taxi.jpg");
     text-align: center;
     height: 100%;
 }
