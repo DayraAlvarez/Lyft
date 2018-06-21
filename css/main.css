@@ -1,0 +1,43 @@
+body#page,html,.container, {
+   height: 100vh;
+}
+
+.intro {
+    background: linear-gradient(to bottom right, #530060 0%, #db0a87 100%);
+    text-align: center;
+    height: 100%;
+}
+
+.mainLogo {
+    position: relative;
+    margin-top: 30%;
+    width: 30%;
+}
+
+.setUp  {
+    background-image: url("../assets/images/taxi.jpg");
+    text-align: center;
+    height: 100%;
+}
+
+.logoTop{
+   width: 17%;
+   margin-top: 20px;
+}
+
+.logoCover {
+   vertical-align: middle;
+   width: 30%;
+}
+
+.setUpElement {
+   margin-bottom: 40px;
+}
+
+.setUpBtn {
+   margin-bottom: 30px;
+}
+
+#intro {
+   height: 100%;
+}
