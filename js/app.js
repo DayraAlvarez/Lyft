@@ -7,7 +7,11 @@
 //4. Enter code, enable button
 //5. Sign up, enble button when check terms
 //6. Modal, sign up succes
-
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+}
 
 
 
@@ -36,7 +40,6 @@ $( document ).ready(function() {
     setTimeout(function(){
         $('.setUp').show();
         $('.intro').hide();
-        console.log("hola");
     }, 3000);
     $('select').formSelect();
 });
