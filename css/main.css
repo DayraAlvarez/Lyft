@@ -23,7 +23,7 @@ body#page,html,.container, {
 .mainLogo {
     position: relative;
     margin-top: 30%;
-    width: 30%;
+    width: 45%;
 }
 
 
@@ -53,4 +53,8 @@ body#page,html,.container, {
 
 #intro {
    height: 100%;
+}
+
+.introBtn {
+  background-color:
 }
