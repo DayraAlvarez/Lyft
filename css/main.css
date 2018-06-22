@@ -10,7 +10,7 @@ body#page,html,.container, {
 
 #mainPage {
    height: 100vh;
-   background-image: url("../assets/images/taxi.jpg");
+   background-image: url("../assets/images/taxi12.jpg");
    background-size: cover;
 }
 
@@ -49,6 +49,7 @@ body#page,html,.container, {
 
 .setUpBtn {
    margin-bottom: 30px;
+   margin-top: 80px;
 }
 
 #intro {
