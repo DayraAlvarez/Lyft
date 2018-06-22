@@ -17,13 +17,16 @@ $( document ).ready(function() {
     });
 });
     //Disable, enable checkbox
-    //$('#checkThis').click(function(){
-        //if (this.checked) {
-         // $("input.group1").removeAttr("disabled");
-        //} else {
-        //  $("input.group1").attr("disabled", true);
-    //});
-//
+    $('#checkThis').click(function(){
+        if (this.checked) {
+         $("#checkBoxButton").removeAttr("disabled");
+         console.log("hola");
+        } else {
+          $("#checkBoxButton").attr("disabled", true);
+    }})
+
+//checkBoxButton
+//checkThis
 
 //<input type="text"  id="searchInput"/>
 //<a href="login.html"><input type="submit" value="Return to Log In"  id="submitBtn" class="enableOnInput" disabled=disabled/></a>

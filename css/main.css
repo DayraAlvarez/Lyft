@@ -33,13 +33,14 @@ body#page,html,.container, {
 }
 
 .logoTop{
-   width: 17%;
-   margin-top: 20px;
+  width: 9%;
+  margin-top: 7px;
+  margin-bottom: 48px;
 }
 
 .logoCover {
    vertical-align: middle;
-   width: 30%;
+   width: 45%;
 }
 
 .setUpElement {
