@@ -83,11 +83,11 @@ hr {
   height: 12px;
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #searchInput {
-  margin-bottom: 43px;
+  margin-bottom: 25px;
 }
 
 #getCode {
@@ -99,7 +99,7 @@ hr {
   left: 7%;
   background-color: #EA0B8C;
   color: white;
-  width: 514px;
+  width: 273px;
   border: none;
   text-align: center;
   padding: 11px;
